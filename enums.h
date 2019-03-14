@@ -44,6 +44,8 @@ typedef struct {
 #define MODE_HEDGE 0x0c
 #define MODE_ROTATE 0x0d
 
+char *modes[]={"flow","static","breathing","wave","fade on keypress","marquee","ripple on keypress","flash on keypress","neon (rainbow)","rainbow marquee","raindrop","circle marquee","hegde","rotate"};
+
 #define COLOR_RED 0x01
 #define COLOR_GREEN 0x02
 #define COLOR_YELLOW 0x03
@@ -51,6 +53,8 @@ typedef struct {
 #define COLOR_PURPLE 0x05
 #define COLOR_AQUA 0x06
 #define COLOR_WHITE 0x07
+
+char * colors[]={"rainbow","red","green","yellow","blue","purple","aqua","white"};
 
 void fin_header(header_t *hdr) {
   hdr->reserved = 0;
