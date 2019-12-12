@@ -17,7 +17,7 @@ void usage(char* prog)
   printf("\tmodes:\n");
   printf("\tcustom FILE\tload file from webtool\n");
   printf("\n");
-  printf("\tpreset  MODE COLOR BRIGHTENSS SPEED\n");
+  printf("\tpreset  MODE COLOR BRIGHTNESS SPEED\n");
   printf("\n\t modes: 0:%s",modes[0]);
   for(i=1;i<sizeof(modes)/sizeof(char*);i++) { printf(", %d:%s",i,modes[i]); }
   printf("\n");

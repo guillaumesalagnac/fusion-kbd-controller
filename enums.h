@@ -50,11 +50,11 @@ char *modes[]={"flow","static","breathing","wave","fade on keypress","marquee","
 #define COLOR_GREEN 0x02
 #define COLOR_YELLOW 0x03
 #define COLOR_BLUE 0x04
-#define COLOR_PURPLE 0x05
-#define COLOR_AQUA 0x06
+#define COLOR_ORANGE 0x05
+#define COLOR_PURPLE 0x06
 #define COLOR_WHITE 0x07
 
-char * colors[]={"rainbow","red","green","yellow","blue","purple","aqua","white"};
+char * colors[]={"rainbow","red","green","yellow","blue","orange","purple","white"};
 
 void fin_header(header_t *hdr) {
   hdr->reserved = 0;

@@ -4,7 +4,11 @@
 	./a.out custom $@
 .dummy:
 	@true
-blue:
+
+help: 
+	./a.out --help
+
+bluerain:
 	./a.out preset 10 4 100 10
 
 rainbow:
